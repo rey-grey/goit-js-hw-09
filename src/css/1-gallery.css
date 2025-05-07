@@ -1,0 +1,37 @@
+body {
+    display: 0 auto;
+    width: 1440px;
+    background-color: #fff;
+    
+}
+
+.gallery {
+    width: 1128px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;;
+
+
+}
+
+.gallery-item {
+    width: calc((100% - 32px) / 3);
+    box-sizing: border-box;
+
+}
+
+.gallery-link {}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    border-radius: 3px;
+
+}
